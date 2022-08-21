@@ -15,6 +15,11 @@ ul {
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 li {
   list-style: none;
   margin: 0;
@@ -73,6 +78,16 @@ li:first-letter {
   text-decoration: none;
 }
 
+.btn {
+  background-color: #8989ef;
+  border: none;
+}
+.btn:hover {
+  background-color: #ffff;
+  color: #8989ef;
+  border: 1px solid #8989ef;
+}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
@@ -84,10 +99,18 @@ li:first-letter {
   opacity: 0.5;
 }
 
-.weather-forecast-temperature-min {
+.weather-forecast-temperature-max {
   opacity: 0.5;
+  font-weight: 600;
 }
 
-.weather-forecast-temperatures {
+.weather-forecast-temperature {
   font-size: 13px;
+  opacity: 0.4;
+}
+.current-location-button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: #fff;
 }
